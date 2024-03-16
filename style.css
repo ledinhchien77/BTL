@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  
+  .search-box {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-btn i {
+    font-size: 18px;
+  }
+  
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .game-list {
+    list-style: none;
+    padding: 0;
+  
+  }
+  
+  .game-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .game-list li a {
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+  }
+  
+  .game-list li a:hover {
+    color: #000;
+  }
+  .banner img{
+    width: 1600px;
+    height: 250px;
+  }
+  article.list1 {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 98%; 
+  }
+  
+  article.list1 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  article.list1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  article.list1 ul li  {
+    display: inline-block;
+    margin: 0 10px 20px;
+    width: 18%; 
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  article.list1 ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  article.list1 ul li img {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  article.list1 ul li h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  article.list1 ul li p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ccc;
+  }
+  
+  .copyright p {
+    margin-bottom: 5px;
+  }
